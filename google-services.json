@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "177422339156",
+    "project_id": "trainingtoday-a785f",
+    "storage_bucket": "trainingtoday-a785f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177422339156:android:7d9d8ed153613a3b2571c1",
+        "android_client_info": {
+          "package_name": "com.example.trainingtoday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177422339156-1vk4psme321dg06fkbvh4mp9je8q7emf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trainingtoday",
+            "certificate_hash": "c224ad719988e1ef148dcbc305b12d3cf5d364d8"
+          }
+        },
+        {
+          "client_id": "177422339156-glqkiia81egh9eovvaumc7eqjuvlv3or.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg4wQZIAlu2kTRmHsN_VALlA0WNssz79E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177422339156-glqkiia81egh9eovvaumc7eqjuvlv3or.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
