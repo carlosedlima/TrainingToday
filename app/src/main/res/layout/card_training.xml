@@ -25,5 +25,15 @@
             tools:text="TESTANDO"
             />
 
+        <TextView
+            android:id="@+id/tv_Data"
+            android:layout_width="78dp"
+            android:layout_height="21dp"
+            android:layout_margin="20dp"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@id/tv_Nome"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="10/10/2000" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>
