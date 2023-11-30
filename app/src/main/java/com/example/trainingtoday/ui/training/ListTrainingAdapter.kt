@@ -17,7 +17,7 @@ class ListTrainingAdapter : BaseAdapter<ListTrainingAdapter.TrainingViewHolder, 
     }
 
     override fun onBindViewHolder(holder: TrainingViewHolder, position: Int) {
-        holder.binding.tvNome
-        holder.binding.tv
+        holder.binding.tvNome.text = items[position].nome.toString()
+        holder.binding.tvData.text = items[position].data.toString()
     }
 }

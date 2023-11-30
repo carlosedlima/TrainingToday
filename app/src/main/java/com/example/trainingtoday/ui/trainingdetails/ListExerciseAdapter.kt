@@ -1,4 +1,4 @@
-package com.example.trainingtoday.ui.exercises
+package com.example.trainingtoday.ui.trainingdetails
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

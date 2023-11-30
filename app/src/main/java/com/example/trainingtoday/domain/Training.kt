@@ -1,9 +1,16 @@
 package com.example.trainingtoday.domain
 
+import android.os.Parcelable
+import com.google.firebase.firestore.ServerTimestamp
+import kotlinx.parcelize.Parcelize
 import java.util.Date
 
+@Parcelize
 data class Training(
-    val nome:Int,
+    @ServerTimestamp
+    val data: Date,
     val descricao:String,
-    val data: Date
-)
+    val nome:Int
+): Parcelable{
+    constructor() : this(Date(), "", 0)
+}
