@@ -9,4 +9,10 @@
     <string name="invalid_password">Senha Incorreta</string>
     <string name="login_failed">"Falha de login"</string>
     <string name="field_error">Campo obrigatório</string>
+    <string name="save">Salvar</string>
+    <string name="select_date">Selecione a data</string>
+    <string name="observation">Observações</string>
+    <string name="name_training">Nome</string>
+    <string name="training">Treino</string>
+    <string name="add">Adicionar</string>
 </resources>

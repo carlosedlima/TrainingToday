@@ -1,25 +1,25 @@
 package com.example.trainingtoday.ui.training
 
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.activity.viewModels
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.trainingtoday.R
-import com.example.trainingtoday.databinding.ActivityListTrainingBinding
 import com.example.trainingtoday.databinding.FragmentListTrainingBinding
+import com.example.trainingtoday.ui.addtraining.BottomSheetFragment
 import com.example.trainingtoday.utils.Resource
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class ListTrainingFragment : Fragment() {
 
     companion object {
         fun newInstance() = ListTrainingFragment()
     }
+
     private val TAG :String = "GET_TRAINING_ACTIVITY"
 
     private var _binding: FragmentListTrainingBinding? = null
@@ -47,6 +47,10 @@ class ListTrainingFragment : Fragment() {
 
         }
 
+        binding.fabAdicionar.setOnClickListener {
+            val bottomSheet = BottomSheetFragment()
+            bottomSheet.show(parentFragmentManager,"BottomSheetDialog")
+        }
 
         viewModel.loadTraining()
         viewModel.trainingList.observe(viewLifecycleOwner){ resourse ->
